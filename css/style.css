@@ -76,3 +76,73 @@ nav a:hover {
   color: #1f2a44;
   text-decoration: none;
 }
+
+/* Resume page: fixed width layout */
+
+.resume main {
+  width: 900px;
+  margin: 2rem auto;
+  padding: 2rem 2.5rem;
+  background-color: #ffffff;
+  border: 1px solid #d9d4c7;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 1rem rgba(31, 42, 68, 0.15);
+}
+
+.resume header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 4px double #c9a24d;
+  text-align: center;
+}
+
+.resume header img {
+  width: 12.5rem;
+  height: 12.5rem;
+  margin: 1rem auto;
+  border: 0.25rem solid #c9a24d;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.resume header p {
+  margin-bottom: 0.25rem;
+  color: #8a6a1f;
+  font-weight: 700;
+}
+
+.resume section {
+  margin-bottom: 2rem;
+}
+
+.resume h2 {
+  margin-bottom: 1rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid #c9a24d;
+  font-size: 1.25rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.resume h3 {
+  margin-top: 1.5rem;
+}
+
+.resume main ul {
+  padding-left: 1.5rem;
+  list-style: disc;
+}
+
+.resume main li {
+  margin-bottom: 0.5rem;
+}
+
+.resume em {
+  color: #5a6275;
+}
+
+.competencies {
+  column-count: 3;
+  column-gap: 2rem;
+  list-style: square;
+}
