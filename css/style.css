@@ -50,3 +50,29 @@ strong {
 em {
   font-style: italic;
 }
+
+/* Navigation: centered horizontal bar, identical on every page */
+
+nav {
+  background-color: #1f2a44;
+  border-bottom: 0.25rem solid #c9a24d;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav a {
+  display: block;
+  padding: 1rem 1.5rem;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+}
+
+nav a:hover {
+  background-color: #c9a24d;
+  color: #1f2a44;
+  text-decoration: none;
+}
