@@ -243,3 +243,127 @@ nav a:hover {
   border-radius: 0.5rem;
   box-shadow: 0 0.25rem 1rem rgba(31, 42, 68, 0.25);
 }
+
+/* Soccer page: fluid layout */
+
+.soccer main {
+  width: 94%;
+  max-width: 70rem;
+  margin: 2rem auto;
+}
+
+.soccer header {
+  padding: 2rem 0;
+  border-top: 0.5rem solid #1f2a44;
+  border-bottom: 0.125rem solid #c9a24d;
+}
+
+.soccer header h1 {
+  font-size: 3.25rem;
+  letter-spacing: 0.02em;
+}
+
+.soccer header p {
+  margin-bottom: 0;
+  color: #8a6a1f;
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.soccer section {
+  margin-top: 2.5rem;
+}
+
+.soccer h2 {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #d9d4c7;
+  font-size: 1.25rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 1rem;
+}
+
+.stats li {
+  padding: 1rem;
+  border-top: 0.25rem solid #c9a24d;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  box-shadow: 0 0.25rem 0.75rem rgba(31, 42, 68, 0.12);
+  font-weight: 700;
+  text-align: center;
+}
+
+.moments {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1rem;
+}
+
+.moments li {
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  background-color: #1f2a44;
+  color: #ffffff;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.photos h2 {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.photos figure {
+  flex: 1 1 14rem;
+  border-bottom: 0.25rem solid #c9a24d;
+}
+
+.photos img {
+  width: 100%;
+  height: 22rem;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.photos figcaption {
+  padding: 0.5rem 0;
+  color: #5a6275;
+  font-style: italic;
+}
+
+.clips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.clips h2 {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.clips figure {
+  flex: 1 1 20rem;
+}
+
+.clips video {
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 1rem rgba(31, 42, 68, 0.25);
+}
+
+.clips figcaption {
+  margin-top: 0.5rem;
+  font-weight: 700;
+  text-align: center;
+}
